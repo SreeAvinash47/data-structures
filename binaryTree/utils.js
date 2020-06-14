@@ -13,11 +13,9 @@ function binaryTree(){
 	x.left.right = new Node(12);
 	x.right.left = new Node(16);
 	x.right.right = new Node(25);
+    x.right.right.right = new Node(26);
     return x
 
 }
-
-module.exports = {
-    binaryTree: binaryTree()
-}
+module.exports = binaryTree()
 
