@@ -14,6 +14,7 @@ function isIdentical(x, y){
 }
 
 function main() {
+
     x = new Node(15);
 	x.left = new Node(10);
 	x.right = new Node(20);
@@ -33,4 +34,4 @@ function main() {
     console.log(isIdentical(x, y))
 }
 
-main()
+module.exports = main
