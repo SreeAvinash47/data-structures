@@ -36,7 +36,6 @@ function binaryTree(perfect=false){
         x.right.right.right = new Node(15)
         return x
     }
-
 }
 module.exports = binaryTree(true)
 
