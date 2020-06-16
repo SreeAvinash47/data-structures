@@ -38,5 +38,5 @@ function binaryTree(perfect=false){
     }
 
 }
-module.exports = binaryTree()
+module.exports = binaryTree(true)
 
